@@ -118,6 +118,9 @@ professor1.mentor_student(student1)
 print(student1.get_mentor(professor1))
 print(professor1.get_mentored_students())
 
+professor2.mentor_student(student2)
+print(student2.get_mentor(professor2))
+print(professor2.get_mentored_students())
 
 
     
