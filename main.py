@@ -38,7 +38,7 @@ class Student(Person):
     
     def get_student_summary(self):
         print ("Student ID: "+ self.student_id)
-        print("Course" + self.course)
+        print("Course " + self.course)
         print("Average grade: " + str(self.calculate_average_grade()))
 
     def get_mentor(self, Professor):
